@@ -1,0 +1,18 @@
+.actions {
+  flex-grow: 0;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+}
+.actions * {
+  height: 100%;
+}
+.actions input {
+  flex-grow: 6;
+}
+.actions button {
+  flex-grow: 1;
+}

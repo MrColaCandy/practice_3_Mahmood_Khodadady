@@ -1,0 +1,29 @@
+.message {
+  padding: 5px;
+  margin: 5px;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.message p {
+  max-width: 50%;
+
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.right-message p {
+  border-bottom-right-radius: 0px;
+  background-color: #db0142;
+}
+.right-message {
+  justify-content: flex-end !important;
+}
+.left-message {
+  justify-content: flex-start !important;
+}
+.left-message p {
+  border-bottom-left-radius: 0px;
+  background-color: #12a3cc;
+}

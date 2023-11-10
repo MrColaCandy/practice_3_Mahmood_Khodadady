@@ -1,0 +1,18 @@
+.chat-box {
+  width: 60vw;
+  height: 500px;
+  background-color: #e0e9e9;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+@media screen and (max-width: 900px) {
+  .chat-box {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+  }
+}
