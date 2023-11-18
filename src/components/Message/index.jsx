@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./Message.css";
 const Message = ({ id, isPeer, body }) => {
   return (
     <div

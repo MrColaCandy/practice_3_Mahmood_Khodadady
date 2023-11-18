@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./ChatBox.css";
 const ChatBox = ({ children }) => {
   return <div className="chat-box">{children}</div>;
 };

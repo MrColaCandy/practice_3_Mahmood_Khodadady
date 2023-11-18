@@ -1,11 +1,11 @@
 import React from "react";
-import "./index.css";
+import "./Actions.css";
 const Actions = () => {
   return (
     <>
       <div className="actions">
-        <button>SEND</button>
-        <input type="text" placeholder="Type your message..." />
+        <button>ارسال</button>
+        <input type="text" placeholder="اینجا تایپ کنید . . ." />
       </div>
     </>
   );
