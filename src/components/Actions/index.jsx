@@ -4,8 +4,8 @@ const Actions = () => {
   return (
     <>
       <div className="actions">
-        <button>ارسال</button>
         <input type="text" placeholder="اینجا تایپ کنید . . ." />
+        <button>ارسال</button>
       </div>
     </>
   );
